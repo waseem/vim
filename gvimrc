@@ -1,1 +1,1 @@
-colorscheme railscasts
+../dotfiles/gvimrc
