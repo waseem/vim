@@ -3,6 +3,7 @@
 "
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
 
 set number
 set autoindent
@@ -11,6 +12,7 @@ set cindent
 set expandtab
 set tabstop=2
 set term=xterm-256color
+
 filetype plugin indent on
 filetype plugin on
 filetype indent on
@@ -58,13 +60,13 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+set list listchars=tab:\➜\ ,trail:·,nbsp:-
 
 if $COLORTERM == 'gnome-terminal'
   set term=gnome-256color
   colorscheme railscasts
-  set list listchars=tab:\➜\ ,trail:·,nbsp:-
 else
-  colorscheme default
+  colorscheme slate
 endif
 
 au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
