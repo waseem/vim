@@ -37,3 +37,9 @@
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = git@github.com:elixir-lang/vim-elixir.git
+[submodule "bundle/vim-jshint2"]
+	path = bundle/vim-jshint2
+	url = http://github.com/Shutnik/jshint2.vim.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
