@@ -46,3 +46,9 @@
 [submodule "bundle/vim-command-t"]
 	path = bundle/vim-command-t
 	url = git://git.wincent.com/command-t.git
+[submodule "bundle/vim-table-mode"]
+	path = bundle/vim-table-mode
+	url = git@github.com:dhruvasagar/vim-table-mode.git
+[submodule "bundle/vim-actionscript"]
+	path = bundle/vim-actionscript
+	url = http://github.com/jeroenbourgois/vim-actionscript.git
