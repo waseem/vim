@@ -67,3 +67,12 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/vim-prettier"]
+	path = bundle/vim-prettier
+	url = https://github.com/prettier/vim-prettier
+[submodule "python-syntax"]
+	path = python-syntax
+	url = https://github.com/vim-python/python-syntax
+[submodule "bundle/vim-python-syntax"]
+	path = bundle/vim-python-syntax
+	url = https://github.com/vim-python/python-syntax
